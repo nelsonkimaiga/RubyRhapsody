@@ -1,6 +1,7 @@
 // Place all the styles related to the welcome controller here.
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: http://sass-lang.com/
+
 @font-face {
 font-family: 'Raleway', serif;
   src:url("/assets/Raleway-ExtraLight.ttf ");
@@ -18,4 +19,26 @@ body {
     font-family: 'Raleway', serif;
     color: #666;
     text-align: center;
+    background: url("codeheader.jpg");
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    text-transform: uppercase;
+    font-family: 'Raleway', serif;
+}
+
+#headingtext{
+  color: #F8F6F5;
+  text-transform: capitalize;
+  margin-top: 190px;
+  background: url("codeheader.jpg");
+}
+
+#descriptiontext{
+  color: #72B60F;
 }
