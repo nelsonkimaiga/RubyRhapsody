@@ -32,13 +32,36 @@ h6 {
     font-family: 'Raleway', serif;
 }
 
-#headingtext{
-  color: #F8F6F5;
-  text-transform: capitalize;
-  margin-top: 190px;
-  background: url("codeheader.jpg");
+.container {
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: auto;
+  margin-left: auto;
 }
 
-#descriptiontext{
-  color: #72B60F;
+
+.button {
+    padding-right: 25px;
+    padding-left: 25px;
+    transition: all .5s ease-in;
+}
+.cover-button .button:hover {
+    background-color: #1e2e4d;
+    color: #fff
+}
+
+.section-title {
+    font-size: 36px;
+    font-weight: 300;
+    margin: 30px 0 10px 0;
+}
+
+/*site logo*/
+.image-logo{
+    border-radius: 50%;
+    border: 0;
+}
+
+img{
+    border: 2px;
 }
