@@ -13,3 +13,25 @@
  *= require_tree .
  *= require_self
  */
+ @font-face {
+ font-family: 'Raleway', serif;
+   src:url("/assets/Raleway-ExtraLight.ttf ");
+   src:url("/assets/Raleway-ExtraLightItalic.ttf ");
+   src:url("/assets/Raleway-Light.ttf ");
+   src:url("/assets/Raleway-Medium.ttf ");
+   src:url("/assets/Raleway-Thin.ttf ");
+   src:url("/assets/Raleway-BlackItalic.ttf");
+ font-weight:normal;
+ font-style:normal;
+ }
+
+ html,
+ body {
+     font-family: 'Raleway', serif;
+     color: #666;
+     text-align: center;
+ }
+
+ p {
+    font-size: 16px;
+}
