@@ -30,8 +30,25 @@
      font-family: 'Raleway', serif;
      color: #666;
      text-align: center;
+     background: url("codeheader.jpg");
+     line-height: 26.4px;
+     font-style: normal;
+     font-variant: normal;
  }
 
- p {
-    font-size: 16px;
-}
+ h1,
+ h2,
+ h3,
+ h4,
+ h5,
+ h6 {
+     text-transform: uppercase;
+     font-family: 'Raleway', serif;
+ }
+
+ .container {
+   padding-right: 15px;
+   padding-left: 15px;
+   margin-right: auto;
+   margin-left: auto;
+ }
